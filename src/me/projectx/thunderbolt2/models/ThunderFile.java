@@ -123,7 +123,7 @@ public class ThunderFile implements FileLayout{
         for (int i = 0; i < ja.length(); i++){
         	l.add(ja.get(i));
         }
-        return getList(path, (o instanceof List) ? (List<?>) o : l);
+        return getList(key, (o instanceof List) ? (List<?>) o : l);
     }
     
     public List<String> getStringList(String key){
